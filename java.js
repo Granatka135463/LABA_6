@@ -6,6 +6,8 @@ function Ok(){
     if (A[i].checked) Res = Res + parseInt(A[i].value)
     }
     switch (Res){
+    case 4: alert("Відмінно!!!!!")
+    break;
     case 3: alert("Відмінно! Ви повністю засвоїли матеріал даної теми.")
     break;
     case 2: alert("Добре!Але не блискуче!")
